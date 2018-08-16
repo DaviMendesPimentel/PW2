@@ -1,15 +1,18 @@
 
 body{
-		background-color: red;
+		background-color: gray;
 	}
 
 h1{
-		color: yellow;
+		color: chocolate;
 		text-align: center;
 	}
 
+footer{
+	background-color: gray;
+}
 #qqr_coisa{
 		font-size: 40px;
-		color: blue;
-		text-align: left;
+		color: white;
+		text-align: center;
 	}
