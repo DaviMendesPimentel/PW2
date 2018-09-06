@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="Funcoes_da_pagina.js"></script>
+		<link rel="stylesheet" type="text/css" href="Estilo_da_pagina.css"/>
+		<title>Pagina de exercicios-teste</title>
+	</head>
+	
+	<body>
+		<div id="form">
+			<form action="">
+				Nome: <br><input type="text" name="nome" value="" size="35"/><br>
+				Sobrenome: <br><input type="text" name="nome" value="" size="35"/><br>
+				Sexo: <br>
+				Masculino<input type="radio" name="sexo" value="masculino" />
+				Feminino<input type="radio" name="sexo" value="feminino" /><br>
+				Qual o ano do seu Nascimento?<br>
+				<input type="button" id="btnCarregar" onclick="ano()"
+					value="Carregar Combobox" />
+				<select name="data_nasc" id="data_nasc" ></select><br>
+				Qual a data do seu aniversário?<br>
+				<input type="date" name="data_aniversario" /><br>
+				Assinale os itens de maior consumo:<br>
+				<input type="checkbox" name="chocolate" value="chocolate"/>
+				Chocolate<br>
+				<input type="checkbox" name="refri" value="refrigerante" />
+				Refrigerante<br>
+				Digite o seu e-mail:<br>
+				<input type="email" name="email" size="35" /><br>
+				Digite uma mensagem:<br>
+				<textarea name="mensagem" rows="10" cols="36" ></textarea>
+				<br><br>
+				<input type="submit" value="Enviar" />
+			</form>
+		</div>
+	</body>
+
+</html>
