@@ -1,8 +1,24 @@
 #formulario{
-	font-size: 12px;
+	font-size: 18px;
 	font-family: Times New Roman;
 }
 #titulo{
 	font-size: 30px;
 	font-family: Times New Roman;
+	text-align: center;
+}
+
+body{
+	background-color: LightGray;
+}
+
+#formulario{
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px 1px 1px 1px;
+	border-color: gray;
+	background-color: white;
+	font-family: Times New Roman;
+	margin: 30px 90px 20px 90px;
+	padding: 5px 10px;
 }
