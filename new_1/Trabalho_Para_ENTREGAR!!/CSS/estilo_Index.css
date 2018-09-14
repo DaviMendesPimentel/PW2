@@ -1,7 +1,3 @@
-#formulario{
-	font-size: 18px;
-	font-family: Times New Roman;
-}
 #titulo{
 	font-size: 30px;
 	font-family: Times New Roman;
@@ -21,4 +17,5 @@ body{
 	font-family: Times New Roman;
 	margin: 30px 90px 20px 90px;
 	padding: 5px 10px;
+	box-shadow: 1px 1px 1px #040404;
 }
