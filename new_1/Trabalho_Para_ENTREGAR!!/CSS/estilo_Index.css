@@ -30,3 +30,6 @@ body{
 input{
 	background-color: #efffff;
 }
+p{
+	text-align: justify;
+}

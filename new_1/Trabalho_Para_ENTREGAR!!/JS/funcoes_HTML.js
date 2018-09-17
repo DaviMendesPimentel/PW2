@@ -9,8 +9,8 @@ function Validacao_Formulario()
 		alert("Insira um nome..");	//alerta o usuário para inserir um nome
 	if(cpf == "")	//se CPF for nulo ('\0')
 		validacao_CPF();	//valida se outro(não o CPF) documento foi inserido
-	if(email == "")
-		validacao_email();
+	if(email == "")	//se email for nulo ('\0')
+		validacao_email();	//valia o endereço físico
 	
 }
 
@@ -21,8 +21,11 @@ function validacao_CPF()
 	var numDoc = document.forms["formulario"]["numDoc"].value;	//cria uma variável para receber o número do documento
 	
 	if(tipoDoc == "" || numDoc == "")	//caso algumas das variáveis forem nulas('\0')
-		alert("Insira um CPF ou um outro tipo de documento");	//pede para o usuário que insira um documento
-																//e seu respectivo número
+		if(tipoDoc == "")
+			alert("Insira um CPF ou um outro tipo de documento");	//pede para o usuário que insira um documento
+																	//e seu respectivo número
+		else if(numDoc == "")	//se o numero for nulo
+			alert("Insira o número de documento");
 }
 
 function validacao_email()
