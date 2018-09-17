@@ -1,21 +1,32 @@
-#titulo{
-	font-size: 30px;
+#primeiroTitulo{
+	font-size: 25px;
 	font-family: Times New Roman;
-	text-align: center;
+	text-align: left;
+	font-weight: bold;
 }
-
-body{
+#subTitulo{
+	font-size: 15px;
 	background-color: LightGray;
 }
-
 #formulario{
 	border-style: solid;
-	border-radius: 5px;
-	border-width: 1px 1px 1px 1px;
-	border-color: gray;
+	border-width: 2px 2px 2px 2px;
+	border-color: black;
 	background-color: white;
-	font-family: Times New Roman;
-	margin: 30px 90px 20px 90px;
+	font-family: Calibri;
 	padding: 5px 10px;
-	box-shadow: 1px 1px 1px #040404;
+}
+#peticoes{
+	font-size: 18px;
+	font-weight: bold;
+}
+#botoes{
+	font-weight: normal;
+	vertical-align: middle;
+}
+body{
+	margin: 100px 180px 150px 180px;
+}
+input{
+	background-color: #efffff;
 }
