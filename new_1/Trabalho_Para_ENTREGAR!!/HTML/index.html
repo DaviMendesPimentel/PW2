@@ -9,9 +9,16 @@
 	</head>
 	
 	<body>
+		<img src="../IMGs/SICLOGO.gif" align="right" align="top">
+					<figcaption>
+						<div id="botoes">
+						SiC Serviço de Informações ao Cidadão
+						</div>
+					</figcaption>
+		</img>
 		<div id="primeiroTitulo">Formulário de solicitação de informação <i>(Pessoa Física)</i> 
-				SiC Serviço de Informações ao Cidadão </div>
-		<div id="subTitulo"> </div>
+				
+				 </div>
 		<div id="subTitulo">As informações abaixo são obrigatórias</div><br>
 			<form id="formulario" action="">
 				<div id="peticoes">Nome: <input type="text" name="nome" value="" size="110" required="yes"/></div>
@@ -46,44 +53,81 @@
 			<form id="formulario" action="">
 				<div id="peticoes">
 					Sexo: <div id="botoes">
-							<input type="radio" name="sexo" value="masc"/>Masculino						
-							<input type="radio" name="sexo" value="femi" />Feminino
-							<p>Data de nascimento: <input type="date" name="dataNascimento" value="" size="12" required="yes"/></p>
+						<table>
+						<th colspan="2"></th>
+							<tr>
+								<td><input type="radio" name="sexo" value="masc"/>Masculino</td>						
+								<td><input type="radio" name="sexo" value="femi" />Feminino</td>
+								
+							</tr>
+						</table>
+						<p>Data de nascimento: <input type="date" name="dataNascimento" value="" size="12" required="yes"/></p>
 						</div>
 					
 				</div>
 				<div id="peticoes">Escolaridade</div>
 				<div id="botoes">
 					
-					<p><input type="radio" name="escolaridade" value="sif"/>Sem instrução formal </p>
-					<p><input type="radio" name="escolaridade" value="es"/>Ensino Superior </p>
-					<p><input type="radio" name="escolaridade" value="d"/>Doutorado<br></p>
-					<p><input type="radio" name="escolaridade" value="ef"/>Ensino Fundamental </p>
-					<p><input type="radio" name="escolaridade" value="e"/>Especialização<br></p>
-					<p><input type="radio" name="escolaridade" value="em"/>Ensino Médio </p>
-					<p><input type="radio" name="escolaridade" value="m"/>Mestrado<br></p>
+					<table>
+						<th colspan="3"></th>
+						<tr>
+						<td><input type="radio" name="escolaridade" value="sif"/>Sem instrução formal</td>
+						<td><input type="radio" name="escolaridade" value="es"/>Ensino Superior</td> 
+						<td><input type="radio" name="escolaridade" value="d"/>Doutorado</td>
+						
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="escolaridade" value="ef"/>Ensino Fundamental</td> 
+						<td><input type="radio" name="escolaridade" value="e"/>Especialização</td>
+						
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="escolaridade" value="em"/>Ensino Médio</td> 
+						<td><input type="radio" name="escolaridade" value="m"/>Mestrado</td>
+						</tr>
+						
+						
+					</table>
 				</div><br>
 				<div id="peticoes">Ocupação principal / Profissão</div>
 				<div id="botoes"> <p>
-					<p><input type="radio" name="ocupacao" value="empregado" />Empregado - setor privado </p> 
-					<p><input type="radio" name="ocupacao" value="pesquisador" />Pesquisador </p>
-					<p><input type="radio" name="ocupacao" value="SerPE" />Servidor público estadual<br></p>
-					
-					<p><input type="radio" name="ocupacao" value="jornalista" />Jornalista </p>
-					<p><input type="radio" name="ocupacao" value="professor" />Professor </p>
-					<p><input type="radio" name="ocupacao" value="SerPM" />Servidor público municipal<br></p>
-					
-					<p><input type="radio" name="ocupacao" value="MemPP" />Membro de partido político </p>
-					<p><input type="radio" name="ocupacao" value="estudante" />Estudante </p>
-					<p><input type="radio" name="ocupacao" value="MemON" />Membro de ONG nacional<br></p>
-					
-					<p><input type="radio" name="ocupacao" value="RepS" />Representante de sindicato </p>
-					<p><input type="radio" name="ocupacao" value="empreendedor" />Empresário/empreendedor </p>
-					<p><input type="radio" name="ocupacao" value="MemOI" />Membro de ONG internacional<br></p>
-					
-					<p><input type="radio" name="ocupacao" value="autonomo" />Profis. Liberal/autônomo </p>
-					<p><input type="radio" name="ocupacao" value="SerPF" />Servidor público federal<br></p>
-					<p><input type="radio" name="ocupacao" value="outros" />Outras </p>
+				
+					<table>
+						
+						<th colspan="3"></th>
+						<tr>
+						<td><input type="radio" name="ocupacao" value="empregado" />Empregado - setor privado </td> 
+						<td><input type="radio" name="ocupacao" value="pesquisador" />Pesquisador </td>
+						<td><input type="radio" name="ocupacao" value="SerPE" />Servidor público estadual<br></td>
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="ocupacao" value="jornalista" />Jornalista </td>
+						<td><input type="radio" name="ocupacao" value="professor" />Professor </td>
+						<td><input type="radio" name="ocupacao" value="SerPM" />Servidor público municipal</td>
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="ocupacao" value="MemPP" />Membro de partido político</td> 
+						<td><input type="radio" name="ocupacao" value="estudante" />Estudante </td>
+						<td><input type="radio" name="ocupacao" value="MemON" />Membro de ONG nacional<br></td>
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="ocupacao" value="RepS" />Representante de sindicato </td>
+						<td><input type="radio" name="ocupacao" value="empreendedor" />Empresário/empreendedor </td>
+						<td><input type="radio" name="ocupacao" value="MemOI" />Membro de ONG internacional</td>
+						</tr>
+						
+						<tr>
+						<td><input type="radio" name="ocupacao" value="autonomo" />Profis. Liberal/autônomo </td>
+						<td><input type="radio" name="ocupacao" value="SerPF" />Servidor público federal</td>
+						<td><input type="radio" name="ocupacao" value="outros" />Outras </td>
+						</tr>
+						
+					</table>
 				</div> 
 				<div id="peticoes">
 					Telefone: ( ) <input type="tel" name="telefone" value="" size="30" maxlength="25"/>

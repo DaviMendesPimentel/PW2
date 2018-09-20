@@ -23,12 +23,11 @@
 #botoes{
 	font-weight: normal;
 	vertical-align: middle;
+	font-size: 15px;
 }
 body{
-	margin: 100px 180px 150px 180px;
-}
-input{
-	background-color: #efffff;
+	margin: 100px 350px 150px 350px;
+	background-color: LightGray;
 }
 p{
 	text-align: justify;
